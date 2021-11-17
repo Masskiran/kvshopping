@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <title>HTML</title>
+
+        <!-- HTML -->
+
+        <!-- Custom Styles -->
+        <link rel="stylesheet" href="style.css" />
+
+        <link rel="java script" href="main.js" />
+    </head>
+
+    <body>
+        <div class="navbar">
+            <span><b>K.V shopping</b></span>
+
+            <a class="a" href="#"><b>Home</b></a>
+            <a class="a" href="login.html"><b>Login</b></a>
+            <a class="a" href="#"><b>About</b></a>
+        </div>
+        <br />
+
+        <script>
+            function hello() {
+                document.write('<h1>this is only offer list</h1>');
+            }
+        </script>
+
+        <div class="box">
+            <span
+                ><img
+                    src="App logo/Capture_2021-08-10_20.38.08-removebg-preview.png"
+                    alt=""
+                    width="70px"
+            /></span>
+            <hr />
+
+            <div class="class">
+                <input type="search" placeholder="🔎 search here" />
+                <br />
+            </div>
+        </div>
+        <br />
+        <div>
+            <button class="first button" onclick="hello();" type="buttona">
+                <marquee>
+                    <img
+                        src="Images/IMG_20210806_083643.jpg"
+                        alt=""
+                        width="300px"
+                    />
+                    <img
+                        src="Images/IMG_20210806_083749.jpg"
+                        alt=""
+                        width="300px"
+                        aria-controls=""
+                    />
+                    <img
+                        src="Images/IMG_20210806_083809.jpg"
+                        alt=""
+                        width="300px"
+                    />
+                </marquee>
+            </button>
+        </div>
+        <hr />
+
+        <div>
+            <div>
+                <a href="mobile Products.html"
+                    ><img
+                        src="Products/IMG_20210807_151826.jpg"
+                        alt=""
+                        width="150px"
+                /></a>
+
+                <a class="TV" href="all TV's.html"
+                    ><img
+                        src="Products/IMG_20210807_154656.jpg"
+                        alt=""
+                        width="150px"
+                /></a>
+
+                <a class="bag's" href="Bag's.html"
+                    ><img
+                        src="Bag's/IMG_20210807_165121.jpg"
+                        alt=""
+                        width="150px"
+                /></a>
+
+                <a
+                    style="padding-left: 35px"
+                    class="Laptops"
+                    href="Laptops.html"
+                    ><img
+                        src="Laptops images/IMG_20210808_090137.jpg"
+                        alt=""
+                        width="150px"
+                /></a>
+                <hr color="#B6B6B4" />
+
+                <a href="#" onclick="hello();"
+                    ><img
+                        src="Images/IMG_20210808_124555.jpg"
+                        alt=""
+                        width="180px"
+                /></a>
+
+                <a onclick="hii();" href="#"
+                    ><img
+                        src="Images/IMG_20210808_130753.jpg"
+                        alt=""
+                        width="140px"
+                        height="200px"
+                /></a>
+            </div>
+        </div>
+        <script>
+            function hii() {
+                document.write('mobile');
+                var x = document.createElement('IMG');
+                x.setAttribute('src', 'Images/IMG_20210808_141557.jpg');
+                x.setAttribute('width', '350px');
+                x.setAttribute('alt', 'The Pulpit Rock');
+                document.body.appendChild(x);
+
+                var button = document.createElement('button');
+                button.innerHTML = 'order  this  product ';
+
+                // 1. Create the button
+
+                var button = document.createElement('button');
+                button.innerHTML = 'order this product';
+
+                // 2. Append somewhere
+                var body = document.getElementsByTagName('body')[0];
+                body.appendChild(button);
+
+                // 3. Add event handler
+                button.addEventListener('click', function () {
+                    alert('confirm your press order');
+                    document.write(
+                        '<h3>________________________________________ hi sir you have order this product this product photo click a screenshot and send this number sir <b>9985360471</b>Example: </h3>',
+                    );
+
+                    var h = document.createElement('IMG');
+                    h.setAttribute('src', 'Images/IMG_20210809_192155.jpg');
+                    h.setAttribute('width', '150px');
+                    h.setAttribute('alt', 'The Pulpit Rock');
+                    document.body.appendChild(h);
+
+                    document.write('<h2>ok sir your order this type </h2>');
+
+                    document.write('<h1>Thank you sir🙏 </h1>');
+                });
+            }
+        </script>
+        <hr />
+        <a href="Chocolates.html"
+            ><img src="Images/IMG_20210808_144241.jpg" alt="" width="140px"
+        /></a>
+    </body>
+</html>
